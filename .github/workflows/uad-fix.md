@@ -64,6 +64,7 @@ safe-outputs:
           python3 /tmp/uad-guard.py "${P[@]}"
   create-pull-request:
     draft: true
+    base-branch: lab/bug-fixable
     title-prefix: "[uad-fix] "
     labels: [uad-fix]
     max: 1
