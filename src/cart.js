@@ -3,7 +3,7 @@ const { VIP_DISCOUNT_RATE } = require('./rules');
 
 /** 购物车小计：sum(price × qty)，单位：分 */
 function subtotal(items) {
-  return items.reduce((sum, item) => sum + item.price * item.qty, 0);
+  return items.reduce((sum, item) => sum + item.price, 0);
 }
 
 /** 会员折扣（业务规则见 docs/business-rules.md） */
