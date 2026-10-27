@@ -1,0 +1,2 @@
+{ "name": "uad-sandbox-node", "version": "1.0.0", "private": true, "type": "commonjs",
+  "scripts": { "test": "node --test test/unit" }, "license": "MIT" }

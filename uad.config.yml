@@ -1,0 +1,6 @@
+stack: node
+test:
+  tier_a: "bash .uad-framework/adapters/node/run.sh A"
+  related: "node --test test/unit"
+policy:
+  b_paths: [docs/business-rules.md, src/rules.js]
